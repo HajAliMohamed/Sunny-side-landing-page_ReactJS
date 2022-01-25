@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Sunny-side-landing-page_ReactJS/static/css/main.594d7a05.css",
+    "main.js": "/Sunny-side-landing-page_ReactJS/static/js/main.711e3ef2.js",
+    "static/media/image-header.jpg": "/Sunny-side-landing-page_ReactJS/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-graphic-design.jpg": "/Sunny-side-landing-page_ReactJS/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/Sunny-side-landing-page_ReactJS/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "index.html": "/Sunny-side-landing-page_ReactJS/index.html",
+    "main.594d7a05.css.map": "/Sunny-side-landing-page_ReactJS/static/css/main.594d7a05.css.map",
+    "main.711e3ef2.js.map": "/Sunny-side-landing-page_ReactJS/static/js/main.711e3ef2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.594d7a05.css",
+    "static/js/main.711e3ef2.js"
+  ]
+}
