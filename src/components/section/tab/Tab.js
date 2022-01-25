@@ -11,6 +11,6 @@ export default function Tab(props) {
       <p>{props.pargh}</p>
       <h4>{props.more}</h4>
   </div>
-  <img style={props.imageOrder ? {order : 2} : {}} sty src={props.img} alt='img'/>
+  <img style={props.imageOrder ? {order : 2} : {}} src={props.img} alt='img'/>
 </div> ;
 }

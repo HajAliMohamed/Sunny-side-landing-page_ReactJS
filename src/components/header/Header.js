@@ -1,11 +1,12 @@
 import React from 'react'
 import  "./header.css"
-
+import logo from "./logo.svg"
+import humburger from "./icon-hamburger.svg"
 export default function Header(props) {
     return (
         <div className='header'>
             <div className='nav'>
-                <img src='/images/logo.svg' alt='img'/>
+                <img src={logo} alt='img'/>
 
                 <ul>
                     <li><a href='#about'>About</a></li>
@@ -16,7 +17,7 @@ export default function Header(props) {
 
                 <img onClick={()=>{
                     props.click();
-                }} src='/images/icon-hamburger.svg' alt='humburger' className='humb'/>
+                }} src={humburger} alt='humburger' className='humb'/>
             </div>
 
             <h1>WE ARE CREATIVES</h1>
