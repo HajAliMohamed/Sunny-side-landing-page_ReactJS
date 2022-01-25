@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Fraunces:wght@100;600&display=swap');
+
+
+.tab{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.tab div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.tab div h1{
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    color:  hsl(212, 27%, 19%);
+}
+
+
+.tab div p{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+    line-height: 22px;
+    margin: 20px 0px;
+}
+
+.tab div h4{
+    color:hsl(212, 27%, 19%) ;
+    font-family: 'Fraunces', serif;
+}
+
+.tab img{
+    width: 100%;
+} 
+
+
+@media only screen and (max-width: 769px){
+    .tab{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab div{
+        padding: 21px;
+        text-align: center;
+        height: 315px;
+    }
+}

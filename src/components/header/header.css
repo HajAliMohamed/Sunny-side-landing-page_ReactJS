@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Fraunces:wght@100&display=swap');
+
+
+
+.header{
+    background-image: url("/public/images/image-header.jpg");
+    background-repeat: no-repeat;
+    height: 750px;
+    background-size: 100% 100%;
+
+}
+
+.header .nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.header .nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 370px;
+}
+
+.header .nav ul li a{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.header .nav ul li .button{
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(198, 62%, 26%);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+.header h1{
+    text-align: center;
+    margin-top: 117px;
+    font-family: 'Fraunces', serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 57px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 769px) {
+    .header .nav .humb{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    .header{
+        height: 338px;
+    }
+    .header .nav ul{
+        display: none;
+    }
+
+    .header h1{
+        font-size: 35px;
+        margin: 40px;
+    }
+
+    .header .nav .humb:hover{
+        cursor: pointer;
+    }
+}

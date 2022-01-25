@@ -1,0 +1,32 @@
+.footer{
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+    height: 231px;
+}
+
+.footer ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.footer ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.footer small{
+    color: white;
+    font-weight: bold;
+
+}
+
+.footer small a{
+    color: #2c7566;
+}

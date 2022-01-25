@@ -1,0 +1,54 @@
+.tab2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.tab2 .berrys{
+    background-image: url("/public/images/image-graphic-design.jpg");
+}
+
+.tab2 .orange{
+    background-image: url("/public/images/image-photography.jpg");
+}
+
+.tab2 :is( .orange,.berrys){
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px 137px;
+    height: 100vh;
+
+}
+
+:is(.tab2 .orange ,.tab2 .berrys)  p{
+    margin-top: 34px;
+    font-family: 'Barlow', sans-serif;
+}
+
+:is(.tab2 .orange ,.tab2 .berrys) h1{
+    font-family: 'Fraunces', serif;
+}
+
+.tab2 .orange{
+    color: hsl(198, 62%, 26%);
+}
+
+.tab2 .berrys{
+    color: hsl(167, 40%, 24%);
+}
+
+
+@media only screen and (max-width : 768px) {
+    .tab2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab2 :is( .orange,.berrys){
+        padding: 40px 48px;
+    }
+}

@@ -1,0 +1,17 @@
+.article h1{
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Fraunces', serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.article .clients{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width : 768px) {
+    .article .clients{
+        flex-direction: column;
+    }
+}

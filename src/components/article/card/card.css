@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: 400px;    
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+border-radius: 63px;
+}
+
+.card p{
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+
+.card div h4{
+    font-size: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+.card div small{
+    margin-top: 12px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+    font-weight: bold;
+}
+
+@media only screen and (max-width : 768px) {
+    .card{
+        height: 305px;
+        margin-bottom: 100px;
+        padding: 20px 119px;
+    }
+}

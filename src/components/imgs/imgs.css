@@ -1,0 +1,20 @@
+.imgs{
+    display: flex;
+    margin-top: 160px;
+}
+
+.imgs img{
+    width: 100%;
+}
+
+@media only screen and (max-width : 768px) {
+    .imgs{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin-top: 26px;
+    }
+
+    .imgs img{
+        width: 100%;
+    }
+}
