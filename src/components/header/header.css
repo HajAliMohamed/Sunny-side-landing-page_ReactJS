@@ -29,6 +29,7 @@
 .header .nav ul li a{
     color: hsl(0, 0%, 100%);
     font-family: 'Barlow', sans-serif;
+    font-weight: bold;
 }
 
 .header .nav ul li .button{
