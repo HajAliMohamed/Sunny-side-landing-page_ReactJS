@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sunny-side-landing-page_ReactJS/static/css/main.594d7a05.css",
+    "main.css": "/Sunny-side-landing-page_ReactJS/static/css/main.567dbc9b.css",
     "main.js": "/Sunny-side-landing-page_ReactJS/static/js/main.c10b7c0c.js",
     "static/media/image-header.jpg": "/Sunny-side-landing-page_ReactJS/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
     "static/media/image-gallery-milkbottles.jpg": "/Sunny-side-landing-page_ReactJS/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
@@ -16,11 +16,11 @@
     "index.html": "/Sunny-side-landing-page_ReactJS/index.html",
     "static/media/icon-facebook.svg": "/Sunny-side-landing-page_ReactJS/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
     "static/media/icon-hamburger.svg": "/Sunny-side-landing-page_ReactJS/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
-    "main.594d7a05.css.map": "/Sunny-side-landing-page_ReactJS/static/css/main.594d7a05.css.map",
+    "main.567dbc9b.css.map": "/Sunny-side-landing-page_ReactJS/static/css/main.567dbc9b.css.map",
     "main.c10b7c0c.js.map": "/Sunny-side-landing-page_ReactJS/static/js/main.c10b7c0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.594d7a05.css",
+    "static/css/main.567dbc9b.css",
     "static/js/main.c10b7c0c.js"
   ]
 }
