@@ -17,6 +17,7 @@ border-radius: 63px;
     color: hsl(213, 9%, 39%);
     font-family: 'Barlow', sans-serif;
     font-weight: bold;
+    margin: 20px 0;
 }
 
 .card div h4{
@@ -35,6 +36,6 @@ border-radius: 63px;
     .card{
         height: 305px;
         margin-bottom: 100px;
-        padding: 20px 119px;
+        padding: 20px 50px;
     }
 }
